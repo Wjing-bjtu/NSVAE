@@ -1,0 +1,10 @@
+{
+    "hidden_dim": {"_type":"choice","_value":[600]},
+    "latent_dim": {"_type":"choice","_value":[200]},
+    "input_dim": {"_type":"choice","_value":[22241]},
+    "ssl_reg": {"_type": "choice", "_value": [0.01]},
+    "ssl_temp": {"_type": "quniform", "_value": [0, 1, 0.1]},
+    "cont_temp": {"_type": "choice", "_value": [0.2]},
+    "sample_num": {"_type": "choice", "_value": [128]},
+    "cont_reg": {"_type": "choice", "_value": [0.05]}
+}

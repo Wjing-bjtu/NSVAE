@@ -1,0 +1,15 @@
+experimentName: jj
+searchSpaceFile: a_search_space.json
+trialCommand: python best_douban.py
+trialCodeDirectory: .
+trialGpuNumber: 1
+trialConcurrency: 1
+maxExperimentDuration: 24h
+maxTrialNumber: 100000000
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: True
